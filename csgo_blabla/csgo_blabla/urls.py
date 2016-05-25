@@ -15,12 +15,14 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
+from django.views.static import serve as serve
 import player.views as player_view
 import csgo_blabla.settings as settings
 
 urlpatterns = [
-    url(r'^player/', player_view.player, name='getPlayerNum'),
+    url(r'^search/', player_view.playerinfo, name='getPlayerNum'),
+    url(r'^player/', player_view.player, name='player'),
     url(r'^admin/', admin.site.urls),
-    url( r'^static/(?P<path>.*)$', 'django.views.static.serve',{ 'document_root': settings.STATIC_URL }),
+    url( r'^static/(?P<path>.*)$', serve,{ 'document_root': settings.STATIC_URL }),
     url(r'^', player_view.index)
 ]

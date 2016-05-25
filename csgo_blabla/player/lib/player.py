@@ -14,4 +14,4 @@ def getPlayerUrl(steamID):
 	res = urllib2.urlopen(req)
 	result = str(res.read()).decode('UTF-8-SIG').encode('UTF-8')
 	result_message = json.loads(result, encoding='UTF-8')
-	return url + result_message['msg']
+	return result_message.get('msg', '')
