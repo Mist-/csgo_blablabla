@@ -2,7 +2,7 @@
   <artifact type="jar" name="AnyQuant:jar">
     <output-path>$PROJECT_DIR$/out/artifacts/AnyQuant_jar</output-path>
     <root id="archive" name="AnyQuant.jar">
-      <element id="module-output" name="AnyQuant" />
+      <element id="module-output" name="csgo" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/mortbay/jetty/servlet-api/2.5-20081211/servlet-api-2.5-20081211.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/springframework/spring-web/4.1.4.RELEASE/spring-web-4.1.4.RELEASE.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.1.4.RELEASE/spring-webmvc-4.1.4.RELEASE.jar" path-in-jar="/" />
