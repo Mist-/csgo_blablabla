@@ -1,0 +1,180 @@
+body {
+	background: url('../../../../img/ef7cb44d312df5038cba0f69a0901da427900645.jpg');
+}
+.profile-sec {
+	margin-top: 120px;
+	padding-bottom: 20px;
+}
+.profile-sec .profile-steam-icon {
+	display: inline;
+	width: 19px;
+	height: 13px;
+	fill: #FFF;
+	color: rgba(11, 179, 214, .9);
+}
+.profile-sec .personaname {
+	color: #FFF;
+	font-size: 2.5em;
+	word-wrap: break-word;
+}
+.profile-sec .country-flag {
+	position: relative;
+	top: -1px;
+}
+.profile-sec .personanowstate {
+	font-size: 2em;
+}
+.profile-sec .normal-status {
+	background-color: #00CC33;
+}
+.profile-sec .ban-status {
+	background-color: #CC0033;
+}
+.profile-sec .vac-status {
+	width: 189px;
+	height: 36px;
+	font-size: 1em;
+	-webkit-border-radius: 25px;
+	border-radius: 25px;
+	line-height: 36px;
+	padding-left: 13px;
+}
+.profile-sec .vac-normal {
+	background-image: radial-gradient(circle farthest-side at 0 50%, rgba(0, 204, 51, 0.4), rgba(131, 198, 72, 0));
+}
+.profile-sec .vac-ban {
+	background-image: radial-gradient(circle farthest-side at 0 50%, rgba(204, 0, 51, 0.4), rgba(226, 109, 109, 0));
+}
+.stats-sec .stats-title {
+	color: #ffffff;
+}
+.stats-sec .stats-count {
+	color: #ffffff;
+}
+.stats-sec-1 svg {
+	display: inline;
+	width: 90px;
+	height: 90px;
+	fill: #0CE3AC;
+	color: rgba(11, 179, 214, .9);
+}
+.stats-sec-1 .data-sec {
+	padding-left: 70px;
+	padding-top: 10px;
+}
+.stats-sec-1 .title {
+	font-size: 1.5em;
+	color: #ffffff;
+}
+.stats-sec-1 .datala {
+	font-size: 1em;
+	color: #ffffff;
+}
+.gun-stats-sec svg {
+	display: inline;
+	width: 75px;
+	height: 26px;
+	fill: #ffffff;
+	color: #ffffff;
+}
+.gun-stats-sec .weapon-name {
+	font-weight: bold;
+	margin-left: 10px;
+}
+.gun-stats-sec .total_kills, .accuracy, .total_shots, .total_hits, .seq {
+	text-align: center;
+}
+.map-stats-sec .total_rounds_map, .total_wins_map, .map_win_rate, .seq {
+	text-align: center;
+}
+.map-stats-sec .map-icon {
+	width: 25px;
+	height: 25px;
+}
+#scrollUp {
+	background-image: url("top.png");
+	bottom: 20px;
+	right: 20px;
+	width: 38px;
+	height: 38px;
+}
+.stats-sec-polar .sec-big {
+	padding: 2px 5px;
+	border-radius: 4px;
+	border: 1px solid #00b2f9;
+	margin-bottom: 5px;
+	background: rgba(0, 0, 0, 0.3);
+}
+.stats-sec-polar .sec-mid {
+	position: relative;
+	border-radius: 4px;
+	font-weight: 300;
+	text-decoration: none;
+	overflow: hidden;
+	display: block;
+	padding: 8px;
+	border: none;
+	color: #FFF;
+	border: 1px solid #00b2f9;
+	background: rgba(0, 0, 0, 0.3);
+}
+.stats-sec-polar .title {
+	color: #ffffff;
+	font-family: 'simhei';
+	font-size: 1.8em;
+	font-weight: 400;
+}
+.stats-sec-polar .datala {
+	color: #FFF;
+	display: inline-block;
+	min-width: 15px;
+	padding: 3px 7px;
+	font-size: 1.3em;
+	font-weight: bold;
+	line-height: 1;
+	vertical-align: middle;
+	white-space: nowrap;
+	text-align: center;
+	background-color: #464545;
+	border-radius: 10px;
+}
+.progress-sm {
+	height: 5px;
+	margin-bottom: 0;
+}
+@media (max-width: 767px) {
+	.stats-sec-1 .col-xs-6 {
+		margin-top: 10px;
+	}
+	.stats-sec-1 .data-sec {
+		padding-left: 10px;
+	}
+	.stats-sec-1 .title {
+		font-size: 1.2em;
+		color: #ffffff;
+	}
+	.stats-sec-1 .datala {
+		font-size: 1em;
+		color: #ffffff;
+	}
+	.stats-sec-1 svg {
+		display: block;
+		position: absolute;
+		width: 40px;
+		height: 40px;
+		top: 52px;
+		left: 0;
+		bottom: 0;
+		margin: auto;
+		fill: #0CE3AC;
+	}
+	.stats-sec-polar .col-xs-6 {
+		padding-bottom: 2px;
+	}
+}
+.footer {
+	color: #777;
+	padding: 30px 0;
+	border-top: 1px solid #E5E5E5;
+	margin-top: 70px;
+}
